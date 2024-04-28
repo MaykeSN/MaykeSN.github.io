@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.caixa-principal{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/images/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #191919;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+}
+
+.portifolio{
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.portifolio span{
+    color: #008170
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    color:white;
+    list-style: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+li:hover{
+    color: #008170;
+    transition: 0.5s;
+}
+
+.myname{
+    position: absolute;
+    top: 43%;
+    left: 7%
+}
+
+.myname span{
+    color: #008170
+}
+
+.myname h3 {
+    color:white;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+h1{
+    color: white;
+    font-size: 55px;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    padding: 60px 15%;
+    background-color: #111111;
+}
+
+section img {
+    height: 400px;
+    border-radius: 50%;
+    border: 2px solid #151515;
+    margin-right: 45px;
+}
+
+section div h2 {
+    color: white;
+    font-size: 60px;
+}
+
+section div p{
+    color: #5a918a;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+section div button{
+    background-color: #008170;
+    color: white;
+    height: 50px;
+    width: 180px;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+}
+
+section div button:hover{
+    background-color:  #111111;
+    border: 2px solid #008170;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.projetos{
+    background-color: #191919;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.projetos h2 {
+    color: white;
+    font-size: 55px;
+    text-align: center;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+}
+
+.card {
+    background-color: #111111;
+    height: 365px;
+    width: 335px;
+    border-radius: 20px;
+    padding: 20px 35px;
+    color: white;
+    text-align: center;
+    border: 1px solid #292828 ;
+    
+}
+.card:hover{
+    border: solid 2px #008170;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.card img {
+    width: 100px;
+}
+
+.card h5 {
+    color: white;
+    font-size: 24px;
+    margin: 10px;
+}
+
+.card p {
+    color: rgba(255, 255, 255, 0.596);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card a {
+    background-color: transparent;
+    border: 2px solid #008170;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.card a:hover {
+    background-color: #008170;
+
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+footer{
+    background-color: #111111;
+    padding-top: 100px;
+    padding-bottom: 120px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h5{
+    color: white;
+    font-size: 30px;
+}
+
+footer p {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-top: 14px;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.social img{
+    height: 24px;
+    border-radius: 50%;
+}
+
+.social a {
+    background-color: #008170;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.social a:hover{
+    transform: scale(1.05);
+}
