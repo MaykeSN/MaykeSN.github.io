@@ -5,7 +5,7 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.caixa-principal{
+.caixa-principal {
     height: 100vh;
     width: 100%;
     background-image: url(/images/background.png);
@@ -14,6 +14,7 @@
     background-repeat: no-repeat;
     background-color: #191919;
 }
+
 
 nav{
     display: flex;
@@ -336,5 +337,27 @@ footer p {
 
     section div button {
         width: 100%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .caixa-principal {
+        background-image: none; /* Esconde a caixa-principal em telas menores */
+    }
+}
+@media only screen and (max-width: 768px) {
+    .myname {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .myname h1 {
+        font-size: 30px;
+    }
+
+    .myname h3 {
+        font-size: 16px;
     }
 }
