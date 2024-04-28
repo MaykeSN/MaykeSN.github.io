@@ -234,3 +234,104 @@ footer p {
 .social a:hover{
     transform: scale(1.05);
 }
+
+/* Estilos para dispositivos de tela pequena */
+@media only screen and (max-width: 768px) {
+    .myname {
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .myname h1 {
+        font-size: 35px;
+    }
+
+    .myname h3 {
+        font-size: 18px;
+    }
+
+    nav {
+        padding-top: 10px;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .portifolio {
+        font-size: 25px;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+}
+
+/* Estilos para dispositivos de tela média */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .myname {
+        top: 30%;
+    }
+
+    .myname h1 {
+        font-size: 45px;
+    }
+
+    .myname h3 {
+        font-size: 20px;
+    }
+
+    nav {
+        padding-top: 20px;
+    }
+
+    .portifolio {
+        font-size: 30px;
+    }
+}
+/* Estilos para dispositivos de tela pequena */
+/* Estilos para dispositivos de tela pequena */
+/* Estilos para dispositivos de tela pequena */
+@media only screen and (max-width: 768px) {
+    section {
+        flex-direction: column;
+        padding: 30px 10%;
+        align-items: center; /* Centraliza os itens na horizontal */
+    }
+
+    section img {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        max-height: 400px; /* Altura máxima desejada para a imagem */
+        border-radius: 50%;
+        border: 2px solid #151515;
+        margin-bottom: 20px;
+        display: block; /* Define a imagem como um bloco para aplicar a margin vertical automaticamente */
+        margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    }
+
+    section div {
+        text-align: center;
+    }
+
+    section div h2 {
+        font-size: 35px;
+    }
+
+    section div p {
+        font-size: 16px;
+    }
+
+    section div button {
+        width: 100%;
+    }
+}
